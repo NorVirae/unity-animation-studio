@@ -1,0 +1,120 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vs
+
+# Ignore user-specific files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Ignore Unity-generated files
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild
+/[Bb]uilds
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+/UserSettings/
+
+# Ignore auto-generated Asset files
+/[Aa]ssets/AssetStoreTools*
+
+# Uncomment if you have VFX Graph assets (you need to keep some of them)
+/[Aa]ssets/**/VFXCache*
+
+# Ignore specific folders
+/Assets/StreamingAssets/
+/Assets/AddressableAssetsData/AssetGroups/
+/Assets/AddressableAssetsData/AssetSettings/*.bin
+/Assets/AddressableAssetsData/AssetSettings/*.bin.meta
+
+# Ignore generated project files
+ExportedObj/
+.consulo/
+/.consuloTemp/
+.idea/
+.vscode/
+/.vscode/settings.json
+
+# Ignore files for temporary and deployment purposes
+*.deploy
+*.log
+*.bak
+*.swp
+*.lock
+*.tmp
+*.temp
+
+# Ignore crash reports
+sysinfo.txt
+
+# Ignore compiled files
+*.dll
+*.exe
+*.ilk
+*.lib
+*.ncb
+*.obj
+*.pdb
+*.idb
+*.sdf
+*.ipch
+*.aps
+*.pch
+*.rsp
+*.tlb
+*.tlh
+*.bak
+*.swp
+*.log
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Ignore builds
+/[Bb]uilds/
+/[Bb]uild/
+/[Bb]uilds/ios/
+/[Bb]uilds/android/
+/[Bb]uilds/webgl/
+/[Bb]uilds/windows/
+/[Bb]uilds/linux/
+/[Bb]uilds/osx/
+/[Bb]uilds/universal/
+
+# Ignore addressable assets
+/Assets/AddressableAssetsData/*/*.bin
+/Assets/AddressableAssetsData/*/*.bin.meta
+/Assets/AddressableAssetsData/*/*.hash
+/Assets/AddressableAssetsData/*/*.hash.meta
+
+# Ignore Unity cloud build
+/[Uu]nity[Cc]loud/
+
+# Ignore JetBrains Rider
+.idea/
+*.sln.iml
+
+# Ignore crash reports
+sysinfo.txt
